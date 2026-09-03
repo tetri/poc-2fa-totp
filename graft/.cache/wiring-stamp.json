@@ -1,0 +1,13 @@
+{
+  "version": "0.16.0",
+  "hosts": [
+    "antigravity"
+  ],
+  "opts": {
+    "global": true,
+    "mcp": true,
+    "hooks": true,
+    "statusline": true
+  },
+  "at": "2026-09-02T12:04:16.341Z"
+}

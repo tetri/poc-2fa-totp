@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "version": 1,
+    "nodeCount": 11,
+    "edgeCount": 29,
+    "languages": [
+      "javascript"
+    ],
+    "scopes": [
+      {
+        "prefix": "",
+        "label": "",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "src/server.js",
+      "name": "server.js",
+      "kind": "file",
+      "path": "src/server.js",
+      "span": "L1-L71",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "da1c4cf76639321b135d9b86aa2704d56b8c67126a17d476987d03a31426851c",
+      "chars": 4264,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/server.js#getPendingUser",
+      "name": "getPendingUser",
+      "kind": "function",
+      "path": "src/server.js",
+      "span": "L33-L33",
+      "signature": "function getPendingUser(req)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "016c198deabf9773a7c5b4bbab1b6f38fa8a2353f1cb214199eac44ca85695ad",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/server.js#requireAuth",
+      "name": "requireAuth",
+      "kind": "function",
+      "path": "src/server.js",
+      "span": "L36-L36",
+      "signature": "function requireAuth(req, res, next)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "ba07abff9a09ee33668e947374cce1af37d4db1f9232053b80e3ccfcadd05626",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/server.js#totpFor",
+      "name": "totpFor",
+      "kind": "function",
+      "path": "src/server.js",
+      "span": "L34-L34",
+      "signature": "function totpFor(user)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0f6030cd547c444a10f63c77523b69feb126305a2e64faa2fae7ffe21cb0d886",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/server.js#validToken",
+      "name": "validToken",
+      "kind": "function",
+      "path": "src/server.js",
+      "span": "L35-L35",
+      "signature": "function validToken(user, token)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "25e2ffd05332d16caf5731fe40dc374dafb7932b50aec220f23cd18c0c42a6e5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js",
+      "name": "views.js",
+      "kind": "file",
+      "path": "src/views.js",
+      "span": "L1-L20",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "d4da0798602206ee00a4b4f56147dfb98f5ede9366dab55798e31d7569d823dd",
+      "chars": 2490,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js#dashboard",
+      "name": "dashboard",
+      "kind": "function",
+      "path": "src/views.js",
+      "span": "L17-L19",
+      "signature": "function dashboard(username)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f441620af8a64c1eebe6f89c4960d5552a6f660f0c27ff5f1c7bbb7b01b4fcb6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js#enroll",
+      "name": "enroll",
+      "kind": "function",
+      "path": "src/views.js",
+      "span": "L9-L11",
+      "signature": "function enroll({ qrCode, secret, error = '' })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "83d0bdf9b4954bb143b4928e6dd729c997d89891be6df6583d336dab03a363b3",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js#layout",
+      "name": "layout",
+      "kind": "function",
+      "path": "src/views.js",
+      "span": "L1-L3",
+      "signature": "function layout(title, body)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6f2e2c5628967c0f0fec9ce30266b4ec188e14b2f1208510a71d80bbb747c753",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js#login",
+      "name": "login",
+      "kind": "function",
+      "path": "src/views.js",
+      "span": "L5-L7",
+      "signature": "function login(error = '')",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5510ed06da3af1ec3f93aa31e5d96abcba29f9ddea5e4e3b2d78cab3e0975ebb",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "src/views.js#verify",
+      "name": "verify",
+      "kind": "function",
+      "path": "src/views.js",
+      "span": "L13-L15",
+      "signature": "function verify(error = '')",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "951ad646a471215fa0a13a0ecc730b7708e7fceab85b95332150c43761fd1e7c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#getPendingUser",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#validToken",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/views.js#dashboard",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/views.js#enroll",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/views.js#login",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/views.js#verify",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#getPendingUser",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#requireAuth",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#totpFor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/server.js#validToken",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "bcryptjs",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "better-sqlite3",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "dotenv/config",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "express",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "express-session",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "node:fs",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "otpauth",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "qrcode",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js",
+      "target": "src/views.js",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/server.js#validToken",
+      "target": "src/server.js#totpFor",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js",
+      "target": "src/views.js#dashboard",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js",
+      "target": "src/views.js#enroll",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js",
+      "target": "src/views.js#layout",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js",
+      "target": "src/views.js#login",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js",
+      "target": "src/views.js#verify",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js#dashboard",
+      "target": "src/views.js#layout",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js#enroll",
+      "target": "src/views.js#layout",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js#login",
+      "target": "src/views.js#layout",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "src/views.js#verify",
+      "target": "src/views.js#layout",
+      "relation": "calls",
+      "confidence": "extracted"
+    }
+  ]
+}
